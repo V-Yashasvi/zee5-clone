@@ -3,11 +3,15 @@
     padding:0;
     background-color:#0f0617;
     text-decoration: none;
-    /* overflow:hidden; */
+    /* overflow-x:hidden */
+}
+html,body{
+    height:auto;
+    width:100%;
 }
 #Navcontent{
-    height:70px;
-    width:1435px;
+    height:9vh;
+    width:95vw;
     background-color: #0f0617;
     display:flex;
     justify-content: space-between;
@@ -22,10 +26,13 @@
 
 #Navcontent>div:nth-child(2){
     /* border: 2px solid violet; */
-    font-size: 14px;
-    margin-left: -280px;
+    font-size: 1.8vh;
+    position: absolute;
+    align-items: center;
+    margin-left: 13vh;
+    margin-top:0.6vw;
 }
-#Navcontent>div:nth-child(3){
+/* #Navcontent>div:nth-child(3){
     border: 2px solid violet;
     display: flex;
     font-size: 14px;
@@ -36,9 +43,19 @@
     justify-content: space-evenly;
     align-items: right;
     font-size: 14px;
-    margin-right: 30px;
-    
-}
+    margin-right: 30px; 
+} */
+ #leftnav{
+    display:flex ;
+    justify-content: space-evenly;
+ }
+ #rightnav{
+    display: flex;
+    align-items: center;
+ }
+ #navsearch{
+    display: flex;
+ }
 #searchicon{
     position:relative;
 }
@@ -48,35 +65,35 @@
 
 #zee5logo>img{
     background-color: black;
-    margin-left:35px;
-    width: 46px;
-    height: 46px;
+    margin-left:4.5vh;
+    width: 6vh;
+    height:3.19vw;
     /* border:2px solid red; */
 }
 .menu{
     box-sizing: border-box;
-    height:20px;
-    width:70px;
+    height:2.6vh;
+    width:4.8vw;
     position: static;
     display:inline;
     color:white;
-    margin-top:20px;
-    margin-left:40px;
+    margin-top:2.6vh;
+    margin-left:5.2vh;
     padding:0;
     /* border:2px solid red; */
 }
 #crownlogo{
     color:white; 
     background-color:#8232c6;
-    height:16px;
-    width:16px ;
+    height:2.09vh;
+    width:2.09vw;
     /* border:2px solid red; */
 }
 #navsearch{
     color:white; 
     background-color:#0f0617; 
-    height:22px;
-    width:22px;
+    height:2.87vh;
+    width:1.5vw;
     background-color:#0f0617;
     align-items: center;
      border:2px solid red;
@@ -90,12 +107,12 @@
     align-items: center;
      /* border:2px solid red; */    
 #searchbar{
-    width:318px;
-    height:38px;
+    width:41.5vh;
+    height:2.6vw;
     border: 1px solid white;
     border-radius:10px;
     /* align-items: center; */
-    margin-right:-500px;
+    margin-right:-65vh;
 }
 #bars{
     color:white; 
@@ -104,40 +121,46 @@
     width:32px;
 }
 #lang{
-    height:16px;
-    width:16px;
+    height:4.18vh;
+    width:4.18vw;
     color:white;
     background-color:#8232c6;
     border:1px solid white;
 }
 #login{
-    height:36;
-    width:65;
+    height:4.5vh;
+    width:4.5vw;
     color:white;
     background-color:#8232c6;
 }
 #buyplan{
     background-color: #8232c6;
-    height:37px;
-    width:106px; 
+    height:4.8vh;
+    width:7.3vw; 
     display: inline;
     padding: 0,18px;
     border-radius: 10%;
 } 
 /* <body> */
-#img1{
-    height:480px;
+#fullrow1{
+    height:auto;
     width:100%;
+}
+#img1{
+    height:62vh;
+    width:90%;
     align-items: center;
-    margin-top:80px;
+    margin-top:10vh;
 }
 .row1{
-    height:322px;
-    width:215px;
+    height:43vh;
+    width:14vw;
     margin-left: 5px;
 }
 #Row1{
     margin-left:35px;
+    height:auto;
+    width:100%;
 }
 #trending{
     color:#FFFFFF; 
@@ -157,8 +180,8 @@
     margin-left:35px;
 }
 .row2{
-    height:322px;
-    width:215px;
+    height:42vh;
+    width:14vw;
     margin-left:25px;
     margin-left: 10px;
 }
@@ -171,8 +194,8 @@
     margin-left:43px;
 }
 .row3{
-    height:142px;
-    width:254px;
+    height:18vh;
+    width:17vw;
     margin-left:25px;
     margin-left: 10px;
 }
@@ -185,8 +208,8 @@
     margin-left:43px;
 }
 .row4{
-    height:144px;
-    width:256px;
+    height:18vh;
+    width:17vw;
     margin-left:25px;
     margin-left: 10px;
 }
@@ -199,18 +222,19 @@
     margin-left:43px;
 }
 .row5{
-    height:236px;
-    width:157px;
-    margin-left:-90px;
+    height:30vh;
+    width:10vw;
+    margin-left:-11vh;
 
 }
 .crimenumbers{
     color:white;
-    height:58px;
-    width:144px;
-    font-size:150px;
+    height:7vh;
+    width:10vw;
+    font-size:19vh;
     font-weight: 1000;
     margin-top: 30%;
+    color:#939094;
 }
 #crime{
     color:#FFFFFF; 
@@ -218,14 +242,14 @@
     font-size: 21px;
     font-family: sans-serif;
     font-weight: 500;
-    margin-left:43px;
+    margin-left:5vh;
     box-shadow: 10%;
 }
 .row6{
-    height:110px;
-    width:110px;
+    height:14vh;
+    width:7vw;
     border-radius: 50%;
-    margin-left:25px;
+    margin-left:3.2vh;
     display:flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
@@ -234,19 +258,19 @@
 #spotlight{
     color:#FFFFFF; 
     background-color:#0f0617;
-    font-size: 21px;
+    font-size: 2.7vh;
     font-family: sans-serif;
     font-weight: 500;
     margin-left:50px;
 }
 #highlights{
     margin-left:3%;
-    height:312px;
-    width:1312px;
+    height:40vh;
+    width:91vw;
 }
 #poster{
-    height:312px;
-    width:1312px; 
+    height:40vh;
+    width:91vw; 
     margin-left:35px;  
 }
 #spot{
@@ -256,8 +280,8 @@
     margin-left:35px;
 }
 .genre{
-    height:142px;
-    width:254px;
+    height:18vh;
+    width:17vw;
 }
 #genre{
     color: #FFFFFF;
@@ -282,8 +306,8 @@
 
  /* <footer> */
  .table{
-    height:488px;
-    width:1254px;
+    height:63vh;
+    width:87vw;
     margin:103px;
     padding:40px,0,0;
     column-gap: 90px;
@@ -322,8 +346,8 @@
     height:18px;
 }
 #help{   
-    width:67px;
-    height:18px;
+    width:6vh;
+    height:1.25vw;
 }
 #privacy,#terms{   
     width:70px;
