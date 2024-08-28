@@ -2,105 +2,295 @@
     margin:0;
     padding:0;
     background-color:#0f0617;
+    text-decoration: none;
+    /* overflow:hidden; */
 }
-
-#logo{
-    /* border:2px solid green; */
-    background-color: black;
-    height:50px;
-    width:50px;
-    margin-left:35px;
-    margin-top: 15px;
-}
-#Navbar{
+#Navcontent{
     height:70px;
     width:1435px;
     background-color: #0f0617;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    /* border:2px solid rgb(76, 22, 177); */
+}
+
+#Navcontent>div{
+    /* border: 2px solid green; */
+}
+
+#Navcontent>div:nth-child(2){
+    /* border: 2px solid violet; */
+    font-size: 14px;
+    margin-left: -280px;
+}
+#Navcontent>div:nth-child(3){
+    border: 2px solid violet;
+    display: flex;
+    font-size: 14px;
+}
+#Navcontent>div:nth-child(3){
+    border: 2px solid violet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    font-size: 14px;
+    margin-right: 30px;
+    
+}
+#searchicon{
+    position:relative;
+}
+#searchbar{
+    position:absolute;
+}
+
+#zee5logo>img{
+    background-color: black;
+    margin-left:35px;
+    width: 46px;
+    height: 46px;
     /* border:2px solid red; */
 }
-/* .navbar{
-    position: static;
-    display:flex;
-    flex-direction: column;
-} */
-/* #home,#show,#movies,#premium,#news{
-    box-sizing:border-box;
-    color:white;
-    border:2px solid brown;
-    display: bloc;
+.menu{
+    box-sizing: border-box;
     height:20px;
     width:70px;
-    margin-top: -40px;
-    margin-left: 120px;
-} */
- a{
+    position: static;
+    display:inline;
     color:white;
-    /* border:2px solid brown; */
-    display: inline;
-    height:46px;
-    width:71px;
-    margin-left: 30px;
-    padding:18px;
-    margin-top:-5px;
- }
- #home{
-    margin-left:100px;
-    /* margin-top:0px */
- }
-#subs{
-    background-color: #8232c6;
-    height:37px;
-    width:106px; 
-    /* position: relative;
-    flex-direction:column; */
-    margin-top:-45px;
-    margin-left:1242px; 
-    /* margin-right:10px; */
-    padding: 0,18px;
-    border-radius: 10%;
-} 
-/* #crown,#search{
-    border: 1px solid blue;
-    height:100px;
-    width:14px  } */
-#buyplan{
+    margin-top:20px;
+    margin-left:40px;
+    padding:0;
     /* border:2px solid red; */
-    font-size: 12px;
-    font-weight:bold;
-    display:flex;
-    color: aliceblue;
-    text-align: right;
-    margin-left:25px;
-    margin-top: 0px;
+}
+#crownlogo{
+    color:white; 
     background-color:#8232c6;
+    height:16px;
+    width:16px ;
+    /* border:2px solid red; */
+}
+#navsearch{
+    color:white; 
+    background-color:#0f0617; 
+    height:22px;
+    width:22px;
+    background-color:#0f0617;
+    align-items: center;
+     border:2px solid red;
+}
+/* #searchicon{
+    color:white; 
+    background-color:#0f0617; 
+    height:40px;
+    width:22px;
+    background-color:#0f0617;
+    align-items: center;
+     /* border:2px solid red; */    
+#searchbar{
+    width:318px;
+    height:38px;
+    border: 1px solid white;
+    border-radius:10px;
+    /* align-items: center; */
+    margin-right:-500px;
 }
 #bars{
+    color:white; 
+    background-color:black;
     height:32px;
     width:32px;
 }
- #t1{
-    border:2px solid red;
- }
- #t2{
-    border:2px solid green;
- }
+#lang{
+    height:16px;
+    width:16px;
+    color:white;
+    background-color:#8232c6;
+    border:1px solid white;
+}
+#login{
+    height:36;
+    width:65;
+    color:white;
+    background-color:#8232c6;
+}
+#buyplan{
+    background-color: #8232c6;
+    height:37px;
+    width:106px; 
+    display: inline;
+    padding: 0,18px;
+    border-radius: 10%;
+} 
+/* <body> */
+#img1{
+    height:480px;
+    width:100%;
+    align-items: center;
+    margin-top:80px;
+}
+.row1{
+    height:322px;
+    width:215px;
+    margin-left: 5px;
+}
+#Row1{
+    margin-left:35px;
+}
+#trending{
+    color:#FFFFFF; 
+    background-color:#0f0617;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left:35px;
+}
+#Row2{
+    margin-left:35px;
+}
+#Row3{
+    margin-left:35px;
+}
+#Row4{
+    margin-left:35px;
+}
+.row2{
+    height:322px;
+    width:215px;
+    margin-left:25px;
+    margin-left: 10px;
+}
+#loved{
+    color:#FFFFFF; 
+    background-color:#0f0617;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left:43px;
+}
+.row3{
+    height:142px;
+    width:254px;
+    margin-left:25px;
+    margin-left: 10px;
+}
+#latest{
+    color:#FFFFFF; 
+    background-color:#0f0617;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left:43px;
+}
+.row4{
+    height:144px;
+    width:256px;
+    margin-left:25px;
+    margin-left: 10px;
+}
+#explore{
+    color:#FFFFFF; 
+    background-color:#0f0617;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left:43px;
+}
+.row5{
+    height:236px;
+    width:157px;
+    margin-left:-90px;
 
- .aa{
-    border: 2px solid blue;
- }
+}
+.crimenumbers{
+    color:white;
+    height:58px;
+    width:144px;
+    font-size:150px;
+    font-weight: 1000;
+    margin-top: 30%;
+}
+#crime{
+    color:#FFFFFF; 
+    background-color:#0f0617;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left:43px;
+    box-shadow: 10%;
+}
+.row6{
+    height:110px;
+    width:110px;
+    border-radius: 50%;
+    margin-left:25px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#spotlight{
+    color:#FFFFFF; 
+    background-color:#0f0617;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left:50px;
+}
+#highlights{
+    margin-left:3%;
+    height:312px;
+    width:1312px;
+}
+#poster{
+    height:312px;
+    width:1312px; 
+    margin-left:35px;  
+}
+#spot{
+    color: #FFFFFF;
+    display:flex;
+    text-align: center;
+    margin-left:35px;
+}
+.genre{
+    height:142px;
+    width:254px;
+}
+#genre{
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 35px;
+}
+#Genre{
+    margin-left:55px;
+    justify-content: space-evenly;
+}
+#crimeimg{
+    display:flex;
+    justify-content: space-between;
+}
+.num6{
+    display: flex;
+    padding:0;
+}
+
+
+ /* <footer> */
  .table{
     height:488px;
     width:1254px;
     margin:103px;
     padding:40px,0,0;
     column-gap: 90px;
-    /* border-spacing: 40px; */
-    /* border:1px solid white; */
     color:#D9D9D980;
     text-align:left;
     padding-right:40px;
     background-clip:padding-box;
-    /* border-spacing:2px,20px,2px,20px; */
     font:12px NotoSansRegular, sans-serif;
  }
  .tableHeader{
@@ -118,30 +308,24 @@
     text-align:center;
     display: flex;
 }
-#channel,#about,#help,#privacy,#terms{
-    display:flex;
-    flex-direction:column;
-    height:18px;
-    width:52px;
-}
 .upperFooter:hover{color:#A785FF}
-#channel{
-    margin-top:500px;
-}
 #foot2{
+    display:flex;
+    padding:0;
+}
+#footer>div{
     margin-top:20px;
     display:flex;
-    flex-direction: column;
-    position:block;
 }
-#searchbar{
-    color:#FFFFFF;
-    background-color:#8232c6;
-    height:38px;
-    width:318px;
-    border:0.2px solid white;
-    border-radius:10px;
-    margin-top:-40px;
-    margin-left:750px;
-
+#channel,#about{   
+    width:52px;
+    height:18px;
+}
+#help{   
+    width:67px;
+    height:18px;
+}
+#privacy,#terms{   
+    width:70px;
+    height:18px;
 }
