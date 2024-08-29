@@ -15,27 +15,27 @@
                 <img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=4.8.3">
             </div>
             <div id="leftnav">
-                <div class="menu" id="home">Home</div>
-                <div class="menu" id="tvshows">TV Shows</div>
-                <div class="menu" id="movies">Movies</div>
-                <div class="menu" id="premium">Premium</div>
-                <div class="menu" id="news">News</div>
-                <div class="menu" id="menubar"></div>
+                <div class="menu" id="home"><a href="https://www.zee5.com">Home</a></div>
+                <div class="menu" id="tvshows"><a href="https://www.zee5.com/tv-shows">TV Shows</a></div>
+                <div class="menu" id="movies"><a href="https://www.zee5.com/movies">Movies</a></div>
+                <div class="menu" id="premium"><a href="https://zee5.com/premium">Premium</a></div>
+                <div class="menu" id="news"><a href="https://www.zee5.com/news">News</a></div>
+                <div class="menu" id="menubar"><i class="fa-solid fa-table-cells-large"></i></div>
             </div>  
             <div id="navsearch">
-                <div id="searchicon"> <i class="fa-solid fa-magnifying-glass"></i></div>
                 <div>
                 <input id="searchbar" type="text" >
                 </div>
+                <div id="searchicon"> <i class="fa-solid fa-magnifying-glass"></i></div> 
             </div>
             <div id="rightnav">
-                <div id="lang">
+                <div class="icons" id="lang">
                     <i class="fa-solid fa-language"></i>
                 </div>
-                <div id="login">Login</div>
+                <a href="https://www.zee5.com/signin"><button class="icons" id="login">Login</button></a>
                 <div id="buyplan">
-                    <div id="crownlogo"> <img src=""></div>
-                    <div>BUY PLAN</div>
+                    <!-- <div id="crownlogo"> <i class="fa-solid fa-crown"></i></div> -->
+                    <button id="buy">BUY PLAN</button>
                 </div>
                 <div id="bars"><i class="fa-solid fa-bars"></i></div>
             </div>
@@ -44,46 +44,53 @@
     <div>
         <img id="img1"src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-101-10z5605213/cover/final1920x770c341b96596f2494e9b7734f4ea593c7a.jpg">
     </div>
-    <br>
+    <!-- <div class="greaterthan">
+        <i class="fa-solid fa-greater-than"></i>
+    </div>
+    <div class="lessthan">
+        <i class="fa-solid fa-less-than"></i>
+    </div> -->
     <br>
     <div id="fullrow1">
-        <p id="trending">Trending Near You</p>
+        <p id="trending"><a href="https://www.zee5.com/movies/collections/trending-near-you/0-8-3z5194652">Trending Near You</a></p>
         <br>
         <div id="Row1">
-            <img class="row1"id="1"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5371966/portrait/1920x770b882c5dfe4ff4023a9092ba6a0490a816cfeebc937654f6cb662cb3dc2f30753b6bc172eea4c4db0a157b961d4bf4222.jpg">
-            <img class="row1"id="2"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5595126/portrait/1920x770bca2759796c84f40a122185ca4154129cb2c56727ed84d179faa0f411f773e14.jpg">
-            <img class="row1"id="3"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5500337/portrait/1920x7708a04a298918b4019b14f31483da8df0b84401b510c7744be87655f7a2bccc47e.jpg">
-            <img class="row1"id="4"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5512788/portrait/1920x7709f03a66e37f24ea68c58a24d4a06e52fbe9f41ed4f604d64bcaec81285da5447.jpg">
-            <img class="row1"id="5"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5612057/portrait/1920x77051337faacee64389a5d1344cdfb25f11258f5a6762ac4a6f90a78166b7d06889.jpg">
-            <img class="row1"id="6"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277662/portrait/1920x7700e77708e32c64a2e9c2276e9aee948be.jpg"> 
+            <a href="https://www.zee5.com/web-series/details/gyaarah-gyaarah/0-6-4z5371966"><img class="row1"id="1"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5371966/portrait/1920x770b882c5dfe4ff4023a9092ba6a0490a816cfeebc937654f6cb662cb3dc2f30753b6bc172eea4c4db0a157b961d4bf4222.jpg"></a>
+            <a href="https://www.zee5.com/movies/details/bhaiyya-ji/0-0-1z5595126"><img class="row1"id="2"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5595126/portrait/1920x770bca2759796c84f40a122185ca4154129cb2c56727ed84d179faa0f411f773e14.jpg"></a>
+            <a href="https://www.zee5.com/movies/details/sam-bahadur/0-0-1z5500337"><img class="row1"id="3"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5500337/portrait/1920x7708a04a298918b4019b14f31483da8df0b84401b510c7744be87655f7a2bccc47e.jpg"></a>
+            <a href="https://www.zee5.com/movies/details/the-kerala-story/0-0-1z5512788"><img class="row1"id="4"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5512788/portrait/1920x7709f03a66e37f24ea68c58a24d4a06e52fbe9f41ed4f604d64bcaec81285da5447.jpg"></a>
+            <a href="https://www.zee5.com/web-series/details/murshid/0-6-4z5612057"><img class="row1"id="5"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5612057/portrait/1920x77051337faacee64389a5d1344cdfb25f11258f5a6762ac4a6f90a78166b7d06889.jpg"></a>
+            <a href="https://www.zee5.com/movies/details/babe-bhangra-paunde-ne/0-0-1z5277662"><img class="row1"id="6"src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277662/portrait/1920x7700e77708e32c64a2e9c2276e9aee948be.jpg"></a>
         </div>
     </div>
     <br>
-    <p id="loved">Loved by masses</p>
+    <p id="loved"><a href="https://zee5.com/collections/loved-by-the-masses/0-8-3z5343305">Loved by masses</a></p>
     <br>
     <div  id="Row2">
-        <img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5581177/portrait/1920x7703664fec734154b6ebb081bcca3aced6abeb3de6378ac460899188dc810097252.jpg">
-        <img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-7366/portrait/lailamajnu1440x810140820243b2aee9221af40b3ae074b348f637b1d.jpg">
-        <img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5577122/portrait/1920x770585856f72d664b8187d1dd410e272e6b196c6ece535c41918ea5c654d9ad4a82.jpg">
-        <img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5359029/portrait/1920x770cd71cca70cfe40ebba0fd3a07fd6211e593f64f69366481db4b5c07190ce12ee736fba238bea4eb98ac08ee2bba97c63.jpg">
-        <img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5559828/portrait/1920x7701759794a50c34d9893686ca7a4a65d91796a7107777b45578e1ac788b329a046.jpg">
-        <img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-9982/portrait/1920x770c27ae7e6960e48b9956473901b40a3e3.jpg">
+        <a href="https://www.zee5.com/movies/details/kakuda/0-0-1z5581177"><img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5581177/portrait/1920x7703664fec734154b6ebb081bcca3aced6abeb3de6378ac460899188dc810097252.jpg"></a>
+        <a href="https://www.zee5.com/movies/details/laila-majnu/0-0-7366"><img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-7366/portrait/lailamajnu1440x810140820243b2aee9221af40b3ae074b348f637b1d.jpg"></a>
+        <a href="https://www.zee5.com/movies/details/rautu-ka-raaz/0-0-1z5577122"><img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5577122/portrait/1920x770585856f72d664b8187d1dd410e272e6b196c6ece535c41918ea5c654d9ad4a82.jpg"></a>
+        <a href="https://www.zee5.com/movies/details/sirf-ek-bandaa-kaafi-hai/0-0-1z5359029"><img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5359029/portrait/1920x770cd71cca70cfe40ebba0fd3a07fd6211e593f64f69366481db4b5c07190ce12ee736fba238bea4eb98ac08ee2bba97c63.jpg"></a>
+        <a href="https://www.zee5.com/movies/details/bastar-the-naxal-story/0-0-1z5559828"><img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5559828/portrait/1920x7701759794a50c34d9893686ca7a4a65d91796a7107777b45578e1ac788b329a046.jpg"></a>
+        <a href="https://www.zee5.com/movies/details/maine-pyar-kiya/0-0-9982"><img class="row2" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-9982/portrait/1920x770c27ae7e6960e48b9956473901b40a3e3.jpg"></a>
     </div>
     <br>
-    <div>
-        <img id="poster" src="https://akamaividz2.zee5.com/image/upload/w_2579,h_473,c_scale,f_webp,q_auto:eco/resources/0-6-4z5594936/homefeed_launcher_sticker/1312x312dd7b35a2e50244988405e0a4dc8527def8b16c108b844e3294fe54ef60d2ab41.jpg" alt=""></div>
     <br>
-    <p id="latest">Latest Hindi episodes</p>
+    <div>
+        <a href="https://www.zee5.com/web-series/details/manorathangal/0-6-4z5594936"><img id="poster" src="https://akamaividz2.zee5.com/image/upload/w_2579,h_473,c_scale,f_webp,q_auto:eco/resources/0-6-4z5594936/homefeed_launcher_sticker/1312x312dd7b35a2e50244988405e0a4dc8527def8b16c108b844e3294fe54ef60d2ab41.jpg" alt=""></a></div>
+    <br>
+    <br>
+    <p id="latest"><a href="https://www.zee5.com/collections/latest-hindi-episodes-free/0-8-368">Latest Hindi episodes</a></p>
     <br>
     <div  id="Row3">
-        <img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611709/list/0000000029882b4391c08584d5cb1c61ba2a2a76c27.jpg">
-        <img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611796/list/00000000216f396106c06f45da94dbf0a9cec7b567.jpg">
-        <img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611777/list/00000000526cebd8a776c94abd82784bca8bb3b675.jpg">
-        <img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611645/list/0000000068e58d223e451b42dea241ceb76494749c.jpg">
-        <img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611636/list/00000000432f7781e53b0c4de6add0bf5cf09d7cb3.jpg">
+        <a href="https://www.zee5.com/tv-shows/details/kundali-bhagya/0-6-366/varun-warns-the-luthras-after-being-arrested/0-1-6z5615149"><img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611709/list/0000000029882b4391c08584d5cb1c61ba2a2a76c27.jpg"></a>
+        <a href="https://www.zee5.com/tv-shows/details/pyar-ka-pehla-naam-radha-mohan/0-6-4z5130241/radha-tells-gungun-about-yugs-death/0-1-6z5615255"><img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611796/list/00000000216f396106c06f45da94dbf0a9cec7b567.jpg"></a>
+        <a href="https://www.zee5.com/tv-shows/details/kaise-mujhe-tum-mil-gaye/0-6-4z5461626/priyanka-mixes-something-in-the-pot-for-dahi-handi/0-1-6z5615219"><img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611777/list/00000000526cebd8a776c94abd82784bca8bb3b675.jpg"></a>
+        <a href="https://www.zee5.com/tv-shows/details/kumkum-bhagya/0-6-127"><img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611645/list/0000000068e58d223e451b42dea241ceb76494749c.jpg"></a>
+        <a href="https://www.zee5.com/tv-shows/details/bhagya-lakshmi/0-6-3392">><img class="row3" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-1-6z5611636/list/00000000432f7781e53b0c4de6add0bf5cf09d7cb3.jpg"></a>
     </div> 
     <br>
-    <p id="explore">Explore in your language</p>
+    <p id="explore"><a href="https://www.zee5.com/collections/explore-in-your-language/0-8-7772">Explore in your language</a></p>
     <br>
     <div  id="Row4">
         <img class="row4" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-7867/list/01hindi6d6a4190a42a4fbb8a45e11d37ecfd32.jpg">
@@ -93,36 +100,37 @@
         <img class="row4" id=""src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258059/list/07bangla8d3aea494e9d4218a6644e2a12682c35.jpg">
     </div>
     <br>
-    <p id="crime">Crime Stories of India</p>
-    <br>
-    <div id="crimeimg">
-        <div class="num6"_>
-            <div class="crimenumbers">1</div>
-            <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5559828/portrait/1920x7701759794a50c34d9893686ca7a4a65d91796a7107777b45578e1ac788b329a046.jpg">
-        </div>
-        <div class="num6">            
-            <div class="crimenumbers">2</div>
-            <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5577122/portrait/1920x770585856f72d664b8187d1dd410e272e6b196c6ece535c41918ea5c654d9ad4a82.jpg">
-        </div>
-        <div class="num6">
-            <div class="crimenumbers">3</div>
-            <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z544916/portrait/1920x770141dcb00909443ec8d04dbc10d8e7f6c944beb98e417497b944a409681c374c0.jpg">
-        </div>
-        <div class="num6">
-            <div class="crimenumbers">4</div>
-            <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5418670/portrait/1920x770148b5940a9c44ae79a4a2c8b6b3ce093c81ed60973594cf083a584510e8a32ed.jpg">
-        </div>
-        <div class="num6">
-            <div class="crimenumbers">5</div>
-            <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/thebrokennewspfp10ag1920x770250420241fc4e04b8c174c398c2a05bd38418f49.jpg">
-        </div>
-        <div class="num6">
-            <div class="crimenumbers">6</div>
-            <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-1138/portrait/1920x7702d7ab4cfdf4c4ce5b0eaf5729107e1b0.jpg">
-        </div>
+    <div id="crimecontent">
+        <p id="crime"><a hre=""></a>Crime Stories of India</p>
+        <br>
+        <div id="crimeimg">
+            <div class="num6"_>
+                <div class="crimenumbers">1</div>
+                <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5559828/portrait/1920x7701759794a50c34d9893686ca7a4a65d91796a7107777b45578e1ac788b329a046.jpg">
+            </div>
+            <div class="num6">            
+                <div class="crimenumbers">2</div>
+                <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5577122/portrait/1920x770585856f72d664b8187d1dd410e272e6b196c6ece535c41918ea5c654d9ad4a82.jpg">
+                </div>
+                <div class="num6">
+                <div class="crimenumbers">3</div>
+                <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z544916/portrait/1920x770141dcb00909443ec8d04dbc10d8e7f6c944beb98e417497b944a409681c374c0.jpg">
+            </div>
+            <div class="num6">
+                <div class="crimenumbers">4</div>
+                <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-0-1z5418670/portrait/1920x770148b5940a9c44ae79a4a2c8b6b3ce093c81ed60973594cf083a584510e8a32ed.jpg">
+            </div>
+            <div class="num6">
+                <div class="crimenumbers">5</div>
+                <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/thebrokennewspfp10ag1920x770250420241fc4e04b8c174c398c2a05bd38418f49.jpg">
+            </div>
+            <div class="num6">
+                <div class="crimenumbers">6</div>
+                <img class="row5" id=""src="https://akamaividz2.zee5.com/image/upload/w_347,h_521,c_scale,f_webp,q_auto:eco/resources/0-6-1138/portrait/1920x7702d7ab4cfdf4c4ce5b0eaf5729107e1b0.jpg">
+            </div>
     </div>
     <br>
-    <p id="spotlight">In Spotlight</p>
+    <p id="spotlight"><a href="https://www.zee5.com/movies/collections/in-the-spotlight/0-8-5718">In Spotlight</a></p>
     <br>
     <section id="spot">
         <div>
@@ -167,30 +175,66 @@
         </div>
     </section>
     <br>
+    <br>
     <div >
         <img id="highlights" src="https://akamaividz2.zee5.com/image/upload/w_2579,h_473,c_scale,f_webp,q_auto:eco/resources/0-101-10z5219162/homefeed_launcher_sticker/bellybannerhindimusictrending1312x312170120249035df27e2bb40778ea97c270fc041ff.jpg" alt="">
     </div>
     <br>
-    <p id="genre">Explore by Genre</p>
-    <br>
     <div id="Genre">
-        <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-3673/list/kids1473808129.jpg">
-        <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8041/list/romance.jpg">
-        <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8044/list/horror.jpg">
-        <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8040/list/comedy199871786.jpg">
-        <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8038/list/thriller.jpg">
+        <p id="genre"><a href="https://www.zee5.com/collections/explore-by-genre/0-8-8045">Explore by Genre</a></p>
+        <br>
+        <div>
+            <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-3673/list/kids1473808129.jpg">
+            <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8041/list/romance.jpg">
+            <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8044/list/horror.jpg">
+            <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8040/list/comedy199871786.jpg">
+            <img class="genre" src="https://akamaividz2.zee5.com/image/upload/w_396,h_224,c_scale,f_webp,q_auto:eco/resources/0-8-8038/list/thriller.jpg">
+        </div>
     </div>
 
     <footer id="footer">
+        <div class="storeicons">
+            <h3 class="store">Download Apps</h3>
+            <div class="apps">
+                <a href="https://play.google.com/store/apps/details?id=com.graymatrix.did"><img src="https://www.zee5.com/images/play_store.png?ver=4.9.2"></a>
+            </div>
+            <div class="apps">
+                <a href="https://apps.apple.com/in/app/zee5-movies-web-series-shows/id743691886 "><img src="https://www.zee5.com/images/app_store.png?ver=4.9.2"></a>
+            </div>
+            <div class="socialicons">
+                <h3>Connect with us</h3>
+                <div class="media">
+                    <a href="https://www.facebook.com/ZEE5/">
+                    <i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+                <div class="media">
+                    <a href="https://www.instagram.com/zee5/">
+                    <i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <div class="media">
+                    <a href="https://x.com/zee5india">
+                    <i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="media">
+                    <a href="https://www.youtube.com/channel/UCXOgAl4w-FQero1ERbGHpXQ">
+                    <i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
         <div id="foot2">
             <div class="upperFooter"id="channel">Channels</div>
+            <div class="upperFooter">|</div>
             <div class="upperFooter" id="about">About Us</div>
+            <div class="upperFooter">|</div>
             <div class="upperFooter"id="help">Help Center</div>
+            <div class="upperFooter">|</div>
             <div class="upperFooter"id="privacy">Privacy Policy</div>
+            <div class="upperFooter">|</div>
             <div class="upperFooter"id="terms">Terms of Use</div>
         </div>
+        <div>
         <table class="table">
-           <b></b> <th class="tableHeader">Popular TV Shows</th>
+            <th class="tableHeader">Popular TV Shows</th>
             <th class="tableHeader">Premium movies</th>
             <th class="tableHeader">Popular Live TV Channels</th>
             <th class="tableHeader">Popular Web Series</th>
@@ -309,10 +353,12 @@
                     <td></td>
                 </tr>
         </table>
-       
+    </div>
     </footer>
     
-    <div class="p">Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+
-        Copyright © 2024 Zee Entertainment Enterprises Ltd. All rights reserved.</div>
+    <div class="copyright">
+        Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+<br>
+        Copyright © 2024 Zee Entertainment Enterprises Ltd. All rights reserved.
+    </div>
 </body>
 </html>

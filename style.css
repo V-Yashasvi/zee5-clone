@@ -3,142 +3,156 @@
     padding:0;
     background-color:#0f0617;
     text-decoration: none;
-    /* overflow-x:hidden */
+    overflow-x: hidden;
 }
 html,body{
     height:auto;
     width:100%;
 }
 #Navcontent{
-    height:9vh;
-    width:95vw;
+    height:10vh;
+    width:100vw;
     background-color: #0f0617;
     display:flex;
     justify-content: space-between;
     align-items: center;
     position:fixed;
+    text-overflow: none;
     /* border:2px solid rgb(76, 22, 177); */
 }
-
-#Navcontent>div{
-    /* border: 2px solid green; */
-}
-
 #Navcontent>div:nth-child(2){
     /* border: 2px solid violet; */
     font-size: 1.8vh;
     position: absolute;
     align-items: center;
     margin-left: 13vh;
-    margin-top:0.6vw;
+    margin-top: 0.6vw;
 }
-/* #Navcontent>div:nth-child(3){
-    border: 2px solid violet;
-    display: flex;
-    font-size: 14px;
-}
-#Navcontent>div:nth-child(3){
-    border: 2px solid violet;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: right;
-    font-size: 14px;
-    margin-right: 30px; 
-} */
- #leftnav{
+#leftnav{
     display:flex ;
     justify-content: space-evenly;
- }
- #rightnav{
+    margin-left:10px;
+}
+#rightnav{
     display: flex;
     align-items: center;
- }
- #navsearch{
-    display: flex;
- }
-#searchicon{
-    position:relative;
+    margin-right:50px;
 }
 #searchbar{
+    width:41.5vh;
+    height:2.6vw;
+    border: 1px solid white;
+    border-radius:10px;
     position:absolute;
+    top:16px;
+    left:750px;
 }
-
+i{
+    height:30px;
+    width:30px;
+}
+#searchicon{
+    /* height:22px;
+    width:22px; */
+    color: #FFFFFF;
+    position:absolute;
+    left:763px;
+    top:26px;
+    overflow: hidden;
+}
+#buy{
+    color: white;
+}
 #zee5logo>img{
     background-color: black;
+    margin-top:10px;
     margin-left:4.5vh;
     width: 6vh;
     height:3.19vw;
     /* border:2px solid red; */
 }
+.p{
+    color:#D9D9D980;
+}
 .menu{
-    box-sizing: border-box;
-    height:2.6vh;
-    width:4.8vw;
+    font-size:16px;
     position: static;
-    display:inline;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
     color:white;
-    margin-top:2.6vh;
-    margin-left:5.2vh;
+    margin-top:6px;
+    margin-left:8px;
     padding:0;
     /* border:2px solid red; */
 }
 #crownlogo{
     color:white; 
     background-color:#8232c6;
-    height:2.09vh;
-    width:2.09vw;
     /* border:2px solid red; */
 }
-#navsearch{
-    color:white; 
-    background-color:#0f0617; 
-    height:2.87vh;
-    width:1.5vw;
-    background-color:#0f0617;
-    align-items: center;
-     border:2px solid red;
+#login{
+    border:1px solid white;
+    font-family: sans-serif;
+    margin-top:2px;
+    margin-right: 50px;
+    width:70px;
+    font-size:15px;
+    font-weight:bold;
+    border-radius: 10%;
 }
-/* #searchicon{
-    color:white; 
-    background-color:#0f0617; 
-    height:40px;
-    width:22px;
-    background-color:#0f0617;
-    align-items: center;
-     /* border:2px solid red; */    
-#searchbar{
-    width:41.5vh;
-    height:2.6vw;
-    border: 1px solid white;
-    border-radius:10px;
-    /* align-items: center; */
-    margin-right:-65vh;
+/* a:hover{
+    background-color: white;
+    color: white;
+} */
+#buy{
+    background-color: #8232c6;
+    font-size:15px;
+    border: none;
+    margin-top:50px;
+    border:2px solid green;
 }
 #bars{
     color:white; 
     background-color:black;
-    height:32px;
-    width:32px;
+    height:45px;
+    width:45px;
+    position:absolute;
+    right:25px;
+    top:25px;
 }
 #lang{
-    height:4.18vh;
-    width:4.18vw;
+    height:40px;
+    width:40px;
     color:white;
-    background-color:#8232c6;
-    border:1px solid white;
+    position: absolute;
+    top:30px;
+    right:300px;
+    background-color:#0f0617;
+    /* border:1px solid red; */
+}
+.fa-solid fa-language{
+    height:30px;
+    width:30px;
+    /* margin-right:600px; */
+}
+.icons{
+    margin-right:15px;
+    height:40px;
 }
 #login{
-    height:4.5vh;
-    width:4.5vw;
     color:white;
-    background-color:#8232c6;
+    background-color:#0f0617;
 }
 #buyplan{
     background-color: #8232c6;
-    height:4.8vh;
-    width:7.3vw; 
-    display: inline;
-    padding: 0,18px;
+    overflow-y: hidden;
+    height:45px;
+    width:106px; 
+    margin-right:30px;
+    /* border:2px solid red; */
+    /* display: inline; */
+    /* padding: 0,18px; */
     border-radius: 10%;
 } 
 /* <body> */
@@ -150,148 +164,193 @@ html,body{
     height:62vh;
     width:90%;
     align-items: center;
+    margin-left:55px;
     margin-top:10vh;
+    border-radius: 0%;
+}
+a{
+    color:#FFFFFF;
+    color: inherit;
+    margin-left: 10px;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+#home{
+    text-decoration: underline;
 }
 .row1{
     height:43vh;
     width:14vw;
-    margin-left: 5px;
+    margin-left: 18px;
+    border-radius: 5%;
+}
+.row2{
+    height:42vh;
+    width:14vw;
+    margin-left: 18px;
+    border-radius: 5%;
+}
+.row3{
+    height:18vh;
+    width:17vw;
+    border-radius: 5%;
+    margin-left:18px;
+}
+.row4{
+    height:18vh;
+    width:17vw;
+    border-radius: 5%;
+    margin-left:18px;
+}
+.row5{
+    height:100%;
+    width:66%;
+    display: flex;
+    align-items:center ;
+    border-radius: 5%;
+    /* border: 2px solid red; */
+}
+.greaterthan{
+    height:70px;
+    width:70px;
+    color:white;
+    margin-right:100px;
+} 
+.greaterthan{
+    height:70px;
+    width:70px;
+    color:white;
+    margin-right:100px;
+} 
+.row6{
+    height:14vh;
+    width:7vw;
+    border-radius: 5%;
+    border-radius: 50%;
+    margin-left:28px;;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 #Row1{
+    margin-left:30px;
+    display: flex;
+}
+
+#Row2{
     margin-left:35px;
-    height:auto;
-    width:100%;
+    display: flex;
+}
+#Row3{
+    margin-left:35px;
+    display: flex;
+}
+#Row4{
+    margin-left:35px;
 }
 #trending{
     color:#FFFFFF; 
     background-color:#0f0617;
     font-size: 21px;
     font-family: sans-serif;
-    font-weight: 500;
-    margin-left:35px;
-}
-#Row2{
-    margin-left:35px;
-}
-#Row3{
-    margin-left:35px;
-}
-#Row4{
-    margin-left:35px;
-}
-.row2{
-    height:42vh;
-    width:14vw;
-    margin-left:25px;
-    margin-left: 10px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    margin-left:53px;
 }
 #loved{
     color:#FFFFFF; 
     background-color:#0f0617;
     font-size: 21px;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     margin-left:43px;
-}
-.row3{
-    height:18vh;
-    width:17vw;
-    margin-left:25px;
-    margin-left: 10px;
 }
 #latest{
     color:#FFFFFF; 
     background-color:#0f0617;
     font-size: 21px;
     font-family: sans-serif;
-    font-weight: 500;
-    margin-left:43px;
-}
-.row4{
-    height:18vh;
-    width:17vw;
-    margin-left:25px;
-    margin-left: 10px;
+    font-weight: 700;
+    margin-left:45px;
 }
 #explore{
     color:#FFFFFF; 
     background-color:#0f0617;
     font-size: 21px;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     margin-left:43px;
 }
-.row5{
-    height:30vh;
-    width:10vw;
-    margin-left:-11vh;
-
+#crimecontent{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:20px;
+    width: 100vw;
+    /* border: 2px solid yellow; */
 }
 .crimenumbers{
     color:white;
-    height:7vh;
-    width:10vw;
+    width:20%;
     font-size:19vh;
     font-weight: 1000;
     margin-top: 30%;
     color:#939094;
+    /* border:2px solid red; */
+    text-align: center;
 }
 #crime{
     color:#FFFFFF; 
     background-color:#0f0617;
     font-size: 21px;
     font-family: sans-serif;
-    font-weight: 500;
-    margin-left:5vh;
+    font-weight: 700;
+    margin-left:40px;
     box-shadow: 10%;
 }
-.row6{
-    height:14vh;
-    width:7vw;
-    border-radius: 50%;
-    margin-left:3.2vh;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 #spotlight{
     color:#FFFFFF; 
     background-color:#0f0617;
     font-size: 2.7vh;
     font-family: sans-serif;
-    font-weight: 500;
-    margin-left:50px;
+    font-weight: 700;
+    margin-left:43px;
 }
 #highlights{
     margin-left:3%;
     height:40vh;
     width:91vw;
+    border-radius: 5%;
 }
 #poster{
     height:40vh;
     width:91vw; 
-    margin-left:35px;  
+    border-radius: 5%;
+    margin-left:43px;  
 }
 #spot{
     color: #FFFFFF;
     display:flex;
     text-align: center;
-    margin-left:35px;
+    margin-left:43px;
 }
 .genre{
     height:18vh;
     width:17vw;
+    border-radius: 5%;
 }
 #genre{
     color: #FFFFFF;
     font-size: 21px;
     font-family: sans-serif;
-    font-weight: 500;
-    margin-left: 35px;
+    font-weight: 700;
 }
 #Genre{
-    margin-left:55px;
+    margin-left:43px;
     justify-content: space-evenly;
 }
 #crimeimg{
@@ -300,14 +359,18 @@ html,body{
 }
 .num6{
     display: flex;
-    padding:0;
+    width: 17%;
+    max-height: fit-content;
+    /* border: 2px solid green; */
+    overflow: hidden;
 }
 
 
  /* <footer> */
- .table{
+.table{
     height:63vh;
     width:87vw;
+    border-radius: 5%;
     margin:103px;
     padding:40px,0,0;
     column-gap: 90px;
@@ -316,40 +379,70 @@ html,body{
     padding-right:40px;
     background-clip:padding-box;
     font:12px NotoSansRegular, sans-serif;
- }
- .tableHeader{
+}
+.tableHeader{
     color:#FFFFFF;
- }
- td:hover{color:#A785FF};
- .p{
+}
+td:hover{color:#A785FF};
+.p{
     color:#D9D9D980;
- }
+}
 .upperFooter{
-    border:2px solid green;
+    /* border:2px solid green; */
     color:#FFFFFFb2;
-    margin-left:103px;
     font:12px NotoSansRegular, sans-serif;
-    text-align:center;
+    text-align:center;  
     display: flex;
+    margin-left:20px;
 }
 .upperFooter:hover{color:#A785FF}
 #foot2{
     display:flex;
-    padding:0;
+    justify-content:left;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom:-60px;
+    margin-left:80px;
 }
-#footer>div{
-    margin-top:20px;
+.storeicons{
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 103px;
+    
+}
+.socialicons{
     display:flex;
+    position:absolute;
+    right:10%;
+    text-indent: right;
+    text-overflow: none;
+}
+.media{
+    margin-right:30px;
+    /* border:2px solid blue; */
+    border-radius:50%;
+    position:static;
+    background-color: grey;
+    border:1px solid grey;
+    padding:2px;
+
 }
 #channel,#about{   
     width:52px;
     height:18px;
 }
 #help{   
-    width:6vh;
+    width:80px;
     height:1.25vw;
 }
 #privacy,#terms{   
-    width:70px;
+    width:80px;
     height:18px;
+}
+.copyright{
+    color:#939094;
+    font-size:12px;
+    font-family:sans-serif;
 }
